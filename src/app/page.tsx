@@ -1,0 +1,27 @@
+import Hero from '../components/Hero';
+import Features from '../components/Features';
+import Benefits from '../components/Benefits';
+import Services from '../components/Services';
+import Cta from '../components/Cta';
+
+export default function HomePage() {
+  return (
+    <main className="min-h-screen">
+      <section id="hero" className="scroll-mt-16">
+        <Hero />
+      </section>
+      <section id="features" className="scroll-mt-16">
+        <Features />
+      </section>
+      <section id="benefits" className="scroll-mt-16">
+        <Benefits />
+      </section>
+      <section id="services" className="scroll-mt-16">
+        <Services />
+      </section>
+      <section id="cta" className="scroll-mt-16">
+        <Cta />
+      </section>
+    </main>
+  );
+}
